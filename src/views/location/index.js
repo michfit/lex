@@ -21,7 +21,9 @@ export default class location extends Component {
               <Input type="age" name="age" id="age" placeholder="Age" />
             </Col>
         </FormGroup>
-      
+    
+      <Button color="primary">Match Me</Button>
+
     </Form>
         
     );
