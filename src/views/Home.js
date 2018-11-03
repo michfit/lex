@@ -22,7 +22,7 @@ export default class Home extends Component {
             <h1> I want to learn 
             <br /><br />
             <div className="col-md-6 offset-md-3">
-              <Input type="language" name="language" id="language" placeholder="language" />
+              <Input className="justify-content-center" type="language" name="language" id="language" placeholder="language" />
             </div>
             </h1>
             
