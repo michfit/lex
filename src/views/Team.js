@@ -10,6 +10,7 @@ import justin from '../img/justin.png'
 import jade from '../img/jade.png'
 import don from '../img/don.jpg'
 import felix from '../img/felix.jpg'
+import placeholder from '../img/placeholder.png'
 
 class Team extends Component {
     constructor() {
@@ -68,7 +69,7 @@ class Team extends Component {
                 },
                 {
                     id:8,
-                    //photo:maya,
+                    photo:placeholder, //help
                     name:"Maya",
                     role:"Back End",
                     description:"3rd year"
@@ -82,7 +83,7 @@ class Team extends Component {
                 },
                 {
                     id:10,
-                    //photo:sarah,
+                    photo:placeholder, //help
                     name:"Sarah",
                     role:"Back End?",
                     description:"1st year"
@@ -93,9 +94,10 @@ class Team extends Component {
                     name:"Felix",
                     role:"Back End",
                     description:"1st year"
-                },{
+                },
+                {
                     id:12,
-                    //photo:amanda,
+                    photo:placeholder, //help
                     name:"Amanda",
                     role:"?? End",
                     description:"?? year"
