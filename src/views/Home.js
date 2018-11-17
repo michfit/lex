@@ -41,14 +41,8 @@ export default class Home extends Component {
               </div>
             </Container>
           </Container>
-
-          <Container fluid style={meetTeam}>
-            <h1>Meet the Team</h1>
-            <Container fluid style={teamDetails}>
-            <Team/>
-            </Container>
-          </Container>
-
+          
+          
           <Container fluid style={aboutUs}>
             <AboutUs />
           </Container>
