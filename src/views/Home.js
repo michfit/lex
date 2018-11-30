@@ -3,6 +3,7 @@ import { Form, FormGroup, Media, Label, Input, FormText, Jumbotron, Container, R
 import Navigation from './Navbar'
 import Team from './Team'
 import AboutUs from './About'
+import SignUp from './SignUp'
 
 export default class Home extends Component {
 	state={
@@ -42,10 +43,11 @@ export default class Home extends Component {
             </Container>
           </Container>
           
-          
           <Container fluid style={aboutUs}>
             <AboutUs />
           </Container>
+
+          
         
       </div>
         

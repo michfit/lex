@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import { Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink } from 'reactstrap';
+import { Link } from 'react-router-dom';
+import { LinkContainer } from "react-router-bootstrap";
 
 export default class Navigation extends Component {
     constructor(props) {
@@ -22,15 +24,15 @@ export default class Navigation extends Component {
                     <NavbarBrand href="/">L.E.X</NavbarBrand>
                     <Collapse isOpen={this.state.isOpen} navbar>
                         <Nav className="ml-auto" navbar>
-                            <NavItem>
-                                <NavLink href="/">Learn</NavLink>
-                            </NavItem>
-                            <NavItem>
-                                <NavLink href="/">Teach</NavLink>
-                            </NavItem>
-                            <NavItem>
-                                <NavLink href="/">About</NavLink>
-                            </NavItem>
+                            <LinkContainer to="/SignUp">
+                                <NavItem>Learn</NavItem>
+                            </LinkContainer>
+                            <LinkContainer to="/signup">
+                                <NavItem>Teach</NavItem>
+                            </LinkContainer>
+                            <LinkContainer to="/signup">
+                                <NavItem>About</NavItem>
+                            </LinkContainer>
                         </Nav>
                     </Collapse>
                 </Navbar>
